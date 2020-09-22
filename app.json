@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "nossa_order",
-    "slug": "nossa_order",
+    "slug": "Nossa Camida",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -19,8 +19,15 @@
     "ios": {
       "supportsTablet": true
     },
+    "androidNavigationBar": {
+      "visible": "immersive"
+    },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "android": {
+      "package": "com.james5968.nossa_order"
+    },
+    "description": ""
   }
 }
